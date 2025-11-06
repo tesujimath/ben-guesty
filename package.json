@@ -1,0 +1,18 @@
+{
+  "name": "ben-guesty-dj.bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:dev": "sass --watch sass/main.scss dist/css/main.css --source-map",
+    "sass:build": "sass sass/main.scss dist/css/main.min.css --style=compressed"
+  },
+  "keywords": [ ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.93.3"
+  }
+}

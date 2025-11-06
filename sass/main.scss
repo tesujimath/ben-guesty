@@ -1,0 +1,15 @@
+@use "bulma" as *;
+
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+
+.button {
+  background: $primary;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+  color: white;
+}
+
+//
